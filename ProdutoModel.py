@@ -46,9 +46,9 @@ class ProdutoView:
         self.root.title("Gerenciamento de Produto")
 
         self.tree = ttk.Treeview(self.root, columns=("ID", "Nome", "Quantidade"))
-        self.tree.heading("#0", text="ID")
-        self.tree.heading("#1", text="Nome")
-        self.tree.heading("#2", text="Quantidade")
+        self.tree.heading("#1", text="ID")
+        self.tree.heading("#2", text="Nome")
+        self.tree.heading("#3", text="Quantidade")
         self.tree.pack(padx=10, pady=10)
 
         self.frame = tk.Frame(self.root)
